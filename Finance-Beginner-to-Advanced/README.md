@@ -4,7 +4,7 @@ This project is a SQL-based financial database designed for my portfolio. It inc
 
 ## Datasets
 
-The project contains four datasets, each stored as a CSV file - [Download dataset](https://github.com/amgfigueiredo/Projects/tree/8ad354134f5df79b8acc5e0d932b4724d5da8eee/SQL/Finance/dataset)
+The project contains four datasets, each stored as a CSV file - [Download dataset](https://github.com/amgfigueiredo/SQL-Projects/tree/f08e0537e06972f6910de98379e95521727ed791/Finance-Beginner-to-Advanced/dataset)
 
 - **customers.csv**: Contains customer details.
 
@@ -64,7 +64,7 @@ CREATE TABLE Investments (
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id) ON DELETE CASCADE
 );
 ```
-## [Download CSV files dataset](https://github.com/amgfigueiredo/Projects/tree/8ad354134f5df79b8acc5e0d932b4724d5da8eee/SQL/Finance/dataset) & load data into MySQL
+## [Download CSV files dataset](https://github.com/amgfigueiredo/SQL-Projects/tree/f08e0537e06972f6910de98379e95521727ed791/Finance-Beginner-to-Advanced/dataset) & load data into MySQL
 ```sql
 #Go to Datasets and download each file. Change the "Load Data" file location
 LOAD DATA INFILE '/customers.csv' 
@@ -95,7 +95,7 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n' 
 IGNORE 1 ROWS;
 ```
-(In Alternative, you can use MySQL Table Data Wizard Import to load your [CSV files](https://github.com/amgfigueiredo/Projects/tree/8ad354134f5df79b8acc5e0d932b4724d5da8eee/SQL/Finance/dataset) )
+(In Alternative, you can use MySQL Table Data Wizard Import to load your [CSV files](https://github.com/amgfigueiredo/SQL-Projects/tree/f08e0537e06972f6910de98379e95521727ed791/Finance-Beginner-to-Advanced/dataset) )
 
 ## Beginner Level
 **Build the queries to answer the following questions**
