@@ -97,7 +97,7 @@ IGNORE 1 ROWS;
 ```
 (In Alternative, you can use MySQL Table Data Wizard Import to load your [CSV files](https://github.com/amgfigueiredo/SQL-Projects/tree/f08e0537e06972f6910de98379e95521727ed791/Finance-Beginner-to-Advanced/dataset) )
 
-## Beginner Level
+## Beginner Level - [Answers>>](https://github.com/amgfigueiredo/SQL-Projects/blob/1b88d0fa9ce820a0e9c50159a52d3914006f1adb/Finance-Beginner-to-Advanced/Answers_to_Beginner_Level.sql)
 **Build the queries to answer the following questions**
 ```
 1. Retrieve all customers from the database.
@@ -111,7 +111,7 @@ IGNORE 1 ROWS;
 9. Find accounts with a balance greater than $2000.
 10. Show all customers who joined after January 1, 2021.
 ```
-## Intermediate Level
+## Intermediate Level - [Answers>>](https://github.com/amgfigueiredo/SQL-Projects/blob/1b88d0fa9ce820a0e9c50159a52d3914006f1adb/Finance-Beginner-to-Advanced/Answers_to_Intermediate_Level.sql)
 **Build the queries to answer the following questions**
 ```
 11. Find the average balance for each account type.
@@ -126,7 +126,7 @@ IGNORE 1 ROWS;
 20. Find the return amount for each investment (amount_invested * return_rate).
 ```
 
-## Advanced Level
+## Advanced Level - [Answers>>](https://github.com/amgfigueiredo/SQL-Projects/blob/1b88d0fa9ce820a0e9c50159a52d3914006f1adb/Finance-Beginner-to-Advanced/Answers_to_Advanced_Level.sql)
 **Build the queries to answer the following questions**
 ```
 21. Find the monthly total transactions (deposits and withdrawals).
